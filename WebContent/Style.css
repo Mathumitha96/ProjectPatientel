@@ -1,0 +1,54 @@
+    body {
+        position: relative;
+        /*width: 1600px;
+        height: 1024px;*/
+        background: #FFFFFF;
+        font-family: 'Quicksand', sans-serif;
+    }
+    ul.list-group {
+        padding-left: 20px;
+    }
+    ul.list-group>li {
+        padding-right: 20px;
+        font-size: small;
+    }
+    /*.group106 {
+        position: absolute;
+        width: 21px;
+        height: 21px;
+        left: 123px;
+        top: 43px;
+    }
+    .object {
+        position: absolute;
+        width: 21px;
+        height: 21px;
+        left: 123px;
+        top: 43px;
+    }
+    #pulse-chart {
+        position: absolute;
+        left: 7.69%;
+        right: 91%;
+        top: 4.2%;
+        bottom: 93.75%;
+        background: #3056F5;
+    }
+*/
+    .backgroundImage{
+        /*position: absolute;
+        width: 1600px;
+        height: 1027px;
+        left: 127px;
+        top: 0px;*/
+        background: url(images/backgroundImage.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .card-title.main {
+        font-weight: 300;
+        font-size: 30px;
+    }
+    .card-title.main strong {
+        font-weight: 600;
+    }

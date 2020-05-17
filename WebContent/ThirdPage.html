@@ -1,0 +1,121 @@
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Style.css">
+
+</head>
+<body class="container-fluid backgroundImage px-5">
+    <nav class="px-0 pt-5 navbar navbar-light bg-transparent">
+        <div class="navbar-brand">
+            <img src="images/pulse-chart@2x.png" />
+            <img src="images/Medico.png" />
+        </div>
+        <img src="images/Group91.png" class="float-right"/>
+    </nav>
+    <div class="row my-5">
+        <div class="col-4">
+            <div class="card bg-transparent border-0">
+                <div class="card-body">
+                  <h5 class="card-title main">Nous avons trouvé<strong class="text-primary"> 10 docteurs </strong>pour prendre Louis en charge.</h5>
+                  <small class="text-secondary">Vous ne comprenez pas une question ? Appelez-nous au <strong class="text-primary">+33 1 02 02 03 04</strong> </small>
+                  <div class="card mt-5">
+                    <div class="card-body">
+                        <form>
+							 <div class="list-group">
+							  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">							   
+							    <div class="d-flex w-100 justify-content-between">	
+							    <img src="images/green_icon.png" class="rounded-circle" width="50" height="50">							
+							      <h5 class="mb-1">Dr. Marine Leboeuf</h5>
+							      <small>Lun-Sa,14h00-20h00</small>							     							     
+							    </div>	
+   								 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<small>Chirurgien</small>				  
+							   
+							  </a>
+							  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+							  <div class="d-flex w-100 justify-content-between">
+							    <img src="images/Face.png" class="rounded-circle" width="50" height="50">	
+							     <h5 class="mb-1">Dr. Pierre Dupont</h5>
+							      <small>Lun-Sa,14h00-20h00</small>
+							    </div>							  
+								&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<small>Médecin</small>
+							  </a>
+							  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+							    <div class="d-flex w-100 justify-content-between">
+							      <img src="images/Face.png" class="rounded-circle" width="50" height="50">	
+							       <h5 class="mb-1">Dr. Lucien Bonnot</h5>
+							      <small>Lun-Sa,14h00-20h00</small>
+							    </div>							  
+							     &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<small>Chirurgien</small>
+							  </a>
+							   <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+							    <div class="d-flex w-100 justify-content-between">
+							       <img src="images/Face.png" class="rounded-circle" width="50" height="50">							        
+							      <h5 class="mb-1">Dr. Virgil Ducrand</h5>
+							      <small>Lun-Sa,14h00-20h00</small>
+							    </div>							  
+							     &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<small>Chirurgien</small>
+							  </a>
+							   <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+							    <div class="d-flex w-100 justify-content-between">
+							      <img src="images/Face.png" class="rounded-circle" width="50" height="50">							        							      
+							      <h5 align= class="mb-1">Dr. Allissa Tarouf</h5>
+							       <small>Lun-Sa,14h00-20h00</small>
+							      
+							    </div>							  
+							     &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<small>Chirurgien</small>
+							  </a>
+							</div>
+                        </form>
+                    </div>
+                    <div class="card-footer p-0 border-0">
+                    <form action="SecondPage.html">
+                        <button type="submit" class="p-2 btn btn-secondary btn-block rounded-0">
+                            <span class="float-left">Vous y êtes presque, choisissez une date</span><span class="float-right"></span>
+                        </button>
+                        </form>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-auto"></div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <ul class="list-group list-group-horizontal list-inline">
+                <li>
+                    Aide
+                </li>
+                <li>
+                    Politique de Confidentialité
+                </li>
+                <li>
+                    Termes & Conditions
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+<script>
+    $(document).ready(function() {
+        $('[name="plusMinusBtn"]').click(function() {
+            if($(this).attr('id') === 'plus') {
+                $('#inputGroupFile03').val(parseInt($('#inputGroupFile03').val())+1);
+            }
+            if($(this).attr('id') === 'minus') {
+                $('#inputGroupFile03').val($('#inputGroupFile03').val() <= 0 ? 0 : parseInt($('#inputGroupFile03').val())-1);
+            }
+        });
+    })
+
+</script>
+
+</html>
