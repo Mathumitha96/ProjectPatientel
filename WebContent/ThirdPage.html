@@ -18,7 +18,7 @@
             <img src="images/pulse-chart@2x.png" />
             <img src="images/Medico.png" />
         </div>
-        <img src="images/Group91.png" class="float-right"/>
+        <img src="images/Contact.png" class="float-right"/>
     </nav>
     <div class="row my-5">
         <div class="col-4">
@@ -104,18 +104,4 @@
         </div>
     </div>
 </body>
-<script>
-    $(document).ready(function() {
-        $('[name="plusMinusBtn"]').click(function() {
-            if($(this).attr('id') === 'plus') {
-                $('#inputGroupFile03').val(parseInt($('#inputGroupFile03').val())+1);
-            }
-            if($(this).attr('id') === 'minus') {
-                $('#inputGroupFile03').val($('#inputGroupFile03').val() <= 0 ? 0 : parseInt($('#inputGroupFile03').val())-1);
-            }
-        });
-    })
-
-</script>
-
 </html>
