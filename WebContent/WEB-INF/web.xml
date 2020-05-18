@@ -3,7 +3,7 @@
   <display-name>ProjectPatientel</display-name>
   <welcome-file-list>
   <welcome-file>FirstPage.html</welcome-file>
-    <welcome-file>MainPage.html</welcome-file>
-    <welcome-file>SamplePage.html</welcome-file>
+  <welcome-file>SecondPage.html</welcome-file>
+  <welcome-file>ThirdPage.html</welcome-file>
   </welcome-file-list>
 </web-app>
